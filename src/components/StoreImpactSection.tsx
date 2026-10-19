@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { RfidTraySimulator } from './RfidTraySimulator';
 import { Smartphone, CheckCircle, MapPin, Zap, RefreshCw, ShoppingCart, Search } from 'lucide-react';
+import checkoutImage from '../assets/images/checkout_basket_rfid_1792403924598.jpg';
 
 const STORES = [
   { id: 'paris', name: 'Décathlon Paris - Madeleine', stock: 18, aisle: 'Allée 4B · Rayon Trail', lastSync: 'Il y a 4 min' },
@@ -73,7 +74,7 @@ export const StoreImpactSection: React.FC = () => {
           <div className="lg:col-span-6">
             <div className="relative rounded-2xl overflow-hidden border border-slate-800 shadow-2xl bg-slate-900 group">
               <img
-                src="/src/assets/images/checkout_basket_rfid_1792403924598.jpg"
+                src={checkoutImage}
                 alt="Bac d'encaissement instantané RFID en magasin Décathlon"
                 className="w-full h-[340px] sm:h-[400px] object-cover object-center group-hover:scale-105 transition-transform duration-500"
                 loading="lazy"

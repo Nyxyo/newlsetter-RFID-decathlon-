@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Layers, Cpu, Radio, Zap, CheckCircle2, XCircle, ArrowRight } from 'lucide-react';
 import { Hotspot } from '../types';
+import rfidTagImage from '../assets/images/rfid_chip_microtag_1792403923373.jpg';
 
 const HOTSPOTS: Hotspot[] = [
   {
@@ -73,7 +74,7 @@ export const TechnologySection: React.FC = () => {
             {/* Interactive Image Container */}
             <div className="relative rounded-xl overflow-hidden border border-slate-800 bg-slate-900 group">
               <img
-                src="/src/assets/images/rfid_chip_microtag_1792403923373.jpg"
+                src={rfidTagImage}
                 alt="Photographie macro de la puce et de l'antenne RFID sur une étiquette Décathlon"
                 className="w-full h-[320px] sm:h-[380px] object-cover object-center"
                 loading="lazy"

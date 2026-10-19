@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Truck, Box, ShieldCheck, Factory, BarChart3, ArrowRight } from 'lucide-react';
+import warehouseImage from '../assets/images/warehouse_rfid_logistics_1792403924629.jpg';
 
 const SUPPLY_CHAIN_STEPS = [
   {
@@ -57,7 +58,7 @@ export const LogisticsSection: React.FC = () => {
           <div className="lg:col-span-7">
             <div className="relative rounded-2xl overflow-hidden border border-slate-800 shadow-2xl bg-slate-900 group">
               <img
-                src="/src/assets/images/warehouse_rfid_logistics_1792403924629.jpg"
+                src={warehouseImage}
                 alt="Centre logistique automatisé Décathlon avec convoyeurs et portiques de lecture RFID"
                 className="w-full h-[360px] sm:h-[440px] object-cover object-center group-hover:scale-105 transition-transform duration-500"
                 loading="lazy"

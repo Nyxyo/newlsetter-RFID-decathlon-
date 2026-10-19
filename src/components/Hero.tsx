@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowDown, Radio, Sparkles, Zap, ShieldCheck } from 'lucide-react';
+import heroImage from '../assets/images/hero_decathlon_rfid_1792403923225.jpg';
 
 export const Hero: React.FC = () => {
   return (
@@ -64,7 +65,7 @@ export const Hero: React.FC = () => {
           <div className="lg:col-span-5">
             <div className="relative rounded-2xl overflow-hidden border border-slate-800 bg-slate-900/60 shadow-2xl group">
               <img
-                src="/src/assets/images/hero_decathlon_rfid_1792403923225.jpg"
+                src={heroImage}
                 alt="Magasin Décathlon moderne avec bornes de caisse RFID automatique"
                 className="w-full h-[360px] sm:h-[420px] lg:h-[460px] object-cover object-center transition-transform duration-500 group-hover:scale-105"
                 loading="eager"
