@@ -1,0 +1,6 @@
+{
+  "name": "Chronique Tech : Révolution RFID Décathlon",
+  "description": "Chronique tech immersive sur la transformation du retail sportif par Décathlon grâce aux puces RFID : bacs d'encaissement instantané, traçabilité et précision des stocks.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
